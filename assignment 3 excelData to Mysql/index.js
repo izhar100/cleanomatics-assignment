@@ -1,5 +1,5 @@
 const xlsx = require('xlsx')
-const mysql=require('mysql')
+const mysql=require('mysql2')
 
 const connection = mysql.createConnection({
     host:'localhost',
